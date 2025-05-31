@@ -8,7 +8,7 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'My Awesome App',
+        name: 'Interact',
         short_name: 'AwesomeApp',
         start_url: '/',
         display: 'standalone',
