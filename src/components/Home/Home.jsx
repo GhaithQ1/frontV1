@@ -23,13 +23,13 @@ const Home = () => {
   const navigate = useNavigate();
   const token = window.localStorage.getItem("token");
 
-    useEffect(() => {
-      if (token && !cookies.token) {
-        setCookies("token", token, { path: "/" });
-      } else if (!token) {
-        navigate("/signandlog");
-      }
-    }, [token, cookies, navigate, setCookies]);
+    // useEffect(() => {
+    //   if (token && !cookies.token) {
+    //     setCookies("token", token, { path: "/" });
+    //   } else if (!token) {
+    //     navigate("/signandlog");
+    //   }
+    // }, [token, cookies, navigate, setCookies]);
 
 
   return (
