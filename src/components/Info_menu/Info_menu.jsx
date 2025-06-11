@@ -28,11 +28,11 @@ const Info_menu = () => {
         if (isToggled) {
             document.body.classList.add('root_da');
             localStorage.setItem('theme', 'dark');
-            if (themeColorMeta) themeColorMeta.setAttribute('content', '#1c1c1d'); // لون الدارك
+            if (themeColorMeta) themeColorMeta.setAttribute('content', '#252728'); // لون الدارك
         } else {
             document.body.classList.remove('root_da');
             localStorage.setItem('theme', 'light');
-            if (themeColorMeta) themeColorMeta.setAttribute('content', '#f0edf5'); // لون اللايت
+            if (themeColorMeta) themeColorMeta.setAttribute('content', '#ffffff'); // لون اللايت
         }
     }, [isToggled]);
 
